@@ -2,12 +2,13 @@ export default function ContactMe() {
   return (
     <section id="Contact" className="contact--section">
       <div>
-        <p className="sub--title">Get In Touch</p>
+        {/* <p className="sub--title">Get In Touch</p> */}
         <h2>Contact Me</h2>
         <p className="text-lg">
           Help your business make profitable with ISMS !
         </p>
-        <p className="text-lg">Email to chihyu.chuang99@gmail.com</p>
+        {/* <p className="text-lg">Email to chihyu.chuang99@gmail.com</p> */}
+        <h2>mail to chihyu.chuang99@gmail.com</h2>
       </div>
       <form className="contact--form--container">
         <div className="container">
