@@ -1,0 +1,26 @@
+export default function HeroSection() {
+  return (
+    <section id="heroSection" className="hero--section">
+      <div className="hero--section--content--box">
+        <div className="hero--section--content">
+          <p className="section--title">Hey, I'm John</p>
+          <h1 className="hero--section--title">
+            <span className="hero--section-title--color">
+              Cybersecurity Specialist
+            </span>{" "}
+            <br />& IT / OT Security Engineer
+          </h1>
+          <p className="hero--section-description">
+            IT/OT Security Compliance/ Regulation
+            <br /> Help your organization stay secure with my expertise in
+            cybersecurity.
+          </p>
+        </div>
+        <button className="btn btn-primary">Get In Touch</button>
+      </div>
+      <div className="hero--section--img">
+        <img src="./img/head.jpg" alt="Hero Section" />
+      </div>
+    </section>
+  );
+}
