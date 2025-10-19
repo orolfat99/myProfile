@@ -8,7 +8,7 @@ export default function ContactMe() {
           Help your business make profitable with ISMS !
         </p>
         {/* <p className="text-lg">Email to chihyu.chuang99@gmail.com</p> */}
-        <h2>mail to chihyu.chuang99@gmail.com</h2>
+        <h2>Mail to chihyu.chuang99@gmail.com</h2>
       </div>
       <form className="contact--form--container">
         <div className="container">

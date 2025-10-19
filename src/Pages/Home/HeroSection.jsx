@@ -6,9 +6,9 @@ export default function HeroSection() {
           <p className="section--title">Hey, I'm Chih-Yu (John) Chuang</p>
           <h1 className="hero--section--title">
             <span className="hero--section-title--color">
-              Cybersecurity Specialist
+              Cybersecurity Compliance / Regulation
             </span>{" "}
-            <br />& IT / OT Security Engineer
+            <br />& IT / OT Security Specialist
           </h1>
           <p className="hero--section-description">
             IT/OT Security Compliance/ Regulation
@@ -16,11 +16,21 @@ export default function HeroSection() {
             cybersecurity.
           </p>
         </div>
-        <button className="btn btn-primary">Get In Touch</button>
+        <button
+          className="btn btn-primary"
+          onClick={() =>
+            document
+              .getElementsByClassName("text-lg")[0]
+              .scrollIntoView({ behavior: "smooth" })
+          }>
+          Get In Touch
+        </button>
       </div>
       <div className="hero--section--img">
         <img src="./img/head.jpg" alt="Hero Section" />
       </div>
+      {/* <div className="bg-shape one"></div>
+      <div className="bg-shape two"></div> */}
     </section>
   );
 }
