@@ -4,12 +4,12 @@ export default function HeroSection() {
       <div className="hero--section--content--box">
         <div className="hero--section--content">
           <p className="section--title">Hey, I'm Chih-Yu (John) Chuang</p>
-          <h1 className="hero--section--title">
+          <h3 className="hero--section--title">
             <span className="hero--section-title--color">
               Cybersecurity Compliance / Regulation
             </span>{" "}
             <br />& IT / OT Security Specialist
-          </h1>
+          </h3>
           <p className="hero--section-description">
             IT/OT Security Compliance/ Regulation
             <br /> Help your organization stay secure with my expertise in

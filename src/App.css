@@ -2,14 +2,18 @@
 img {
   border-radius: 16px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-
   width: 100%;
-  max-width: 250px; /* sets a limit so it won’t get too big */
+  max-width: 300px; /* sets a limit so it won’t get too big */
   height: auto; /* keeps the correct aspect ratio */
   border-radius: 16px; /* smooth corners */
   display: block;
   margin: 0 auto; /* centers the image */
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  &:hover {
+    transform: translateY(-5px); /* slight lift on hover */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25); /* deeper shadow on hover */
+  }
 
   @media (max-width: 500px) {
     .profile-pic {
@@ -119,18 +123,18 @@ p {
 
 /* Heading 1 */
 h1 {
-  font-size: 56px;
+  font-size: 50px;
   font-weight: 700;
   line-height: 67px;
 }
 /* Heading 2 */
 h2 {
-  font-size: 48px;
+  font-size: 40px;
   font-weight: 700;
   line-height: 58px;
 }
 /* Heading 3 */
-h2 {
+h3 {
   font-size: 24px;
   font-weight: 700;
   line-height: 34px;

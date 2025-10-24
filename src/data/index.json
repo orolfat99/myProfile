@@ -49,6 +49,12 @@
       "src": "./img/MSdegree.png",
       "title": "Degree in Cybersecurity",
       "description": "Holds a Master's degree in Cybersecurity, with a strong foundation in network security, cryptography, and ethical hacking. Skilled in analyzing security vulnerabilities and implementing effective countermeasures to safeguard information systems."
+    },
+    {
+      "id": "4",
+      "src": "./img/BTJA.png",
+      "title": "Blue Team Junior Analyst",
+      "description": "Open-Source Intelligence, Digital Forensics, Vulnerability Management, DarkWeb Operations, Threat Hunting, and Network Analysis"
     }
   ],
   "testimonial": [
